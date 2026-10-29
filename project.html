@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Project</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">      
+      <style>
+            .hello{
+                display: flex; 
+                 align-items: center;
+                 flex-direction: column;
+                    background: rgb(197, 226, 233); 
+                    text-align: center;
+                    height: 800px;
+                    width: auto;
+                    margin: 5px 0;
+                   
+                   
+                 }
+                        .hello h1 {margin-bottom: 5px; }
+                        
+
+                         .hello h3 { 
+                          margin-top: 0;
+                          margin-bottom: 30px;
+                                 }
+                 
+                    .cat{
+                        
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;  
+                        background: rgb(250, 248, 248);
+                        border-color: grey;
+                        height: 300px;
+                        width: 1000px;
+                        border-style: dashed;
+                        border-radius: 15px;
+                        transition: all 0.2s ease; 
+                        margin: 15px;
+                        gap: 8px;
+                        
+                         }
+                    
+                    .cat:hover {
+                      border-color: rgb(69, 187, 216);   
+                        } 
+                        .upload-icon{
+                            font-size: 50px;
+                            margin-bottom: 10px;
+                            color: gray;
+                            gap: 10px;
+                            
+                        }  
+                        .cat h4{
+                          margin : 0px
+                        } 
+                        
+                        .cat p{
+                           margin: 0px;
+                          
+                        }             
+                           .foramts{
+                            margin-top: 10px ;
+                            display: flex;
+                            gap: 10px;
+                           }
+                           .tag{
+                            background: rgb(207, 193, 193);
+                            padding: 5px;
+                            border-radius: 4px;
+                            font-size: small;
+                            color: rgb(5, 5, 5);
+                            font-weight: bold;
+                            font-weight: normal;
+                           }
+                        </style>
+           </head>
+           <body>
+            <div class="hello">
+                <h1>Image Upscalar</h1>
+                <h3 style="color: gray; font-weight: normal;">Compress, resize, and enhance your images with AI-powered tools</h3>
+                <div class="cat">
+               <i class="fa-solid fa-cloud-upload-alt upload-icon"></i>
+                <h4>Drop your image here</h4>
+                <p style="color: gray;" >or tap to browse</p>
+                <div class="formats">
+                    <span class="tag">JPEG</span>
+                    <span class="tag">PNG</span>
+                    <span class="tag">WebP</span>
+                    <span class="tag">AVIF</span>               
+                </div>
+
+            </div>
+            </div>
+           
+           </body>
+</html>
